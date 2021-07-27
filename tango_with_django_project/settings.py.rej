@@ -1,0 +1,9 @@
+diff a/tango_with_django_project/settings.py b/tango_with_django_project/settings.py	(rejected hunks)
+@@ -64,6 +64,7 @@
+                 'django.contrib.auth.context_processors.auth',
+                 'django.contrib.messages.context_processors.messages',
+             ],
++            'DIRS': ['<workspace>/tango_with_django_project/templates']
+         },
+     },
+ ]
